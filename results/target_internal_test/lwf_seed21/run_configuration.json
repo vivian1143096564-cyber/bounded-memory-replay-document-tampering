@@ -1,0 +1,14 @@
+{
+  "checkpoint": "<USER_SUPPLIED_CHECKPOINT>",
+  "dataset": "<USER_SUPPLIED_DATASET>",
+  "split": "internal_test",
+  "images_requested": 871,
+  "threshold": 0.5,
+  "tile_size": 512,
+  "batch_size": 1,
+  "seed": 20260804,
+  "gate_model": null,
+  "gate_threshold": 0.5,
+  "device": "<DEVICE_RECORDED_IN_ORIGINAL_RUN>",
+  "torch": "2.7.1+xpu"
+}

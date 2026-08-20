@@ -1,0 +1,76 @@
+{
+  "protocol": "DTD checkpoint evaluation on split:internal_test, official 512px tiling",
+  "counts": {
+    "evaluated": 871,
+    "failed": 0,
+    "tampered": 720,
+    "pristine": 151
+  },
+  "tampered_localization": {
+    "pixel_micro": {
+      "precision": 0.1102262272287447,
+      "recall": 0.04906181478066363,
+      "f1": 0.06790087537077764,
+      "iou": 0.03514357752416461
+    },
+    "image_macro": {
+      "precision": {
+        "mean": 0.11483615746543999,
+        "median": 0.0,
+        "std": 0.2829104503515612,
+        "bootstrap_95_ci": [
+          0.09445747529388328,
+          0.1353617524796339
+        ]
+      },
+      "recall": {
+        "mean": 0.1046965907680131,
+        "median": 0.0,
+        "std": 0.24985588116052598,
+        "bootstrap_95_ci": [
+          0.08642308318959546,
+          0.12322015643377562
+        ]
+      },
+      "f1": {
+        "mean": 0.07379115807823819,
+        "median": 0.0,
+        "std": 0.1968414164077734,
+        "bootstrap_95_ci": [
+          0.059467758347556104,
+          0.08839129513822666
+        ]
+      },
+      "iou": {
+        "mean": 0.0544302881808078,
+        "median": 0.0,
+        "std": 0.15944521388784344,
+        "bootstrap_95_ci": [
+          0.042915510787821645,
+          0.0663888559424895
+        ]
+      }
+    },
+    "complete_miss_rate": 0.2916666666666667,
+    "recall_below_0.1_rate": 0.8277777777777777,
+    "recall_below_0.5_rate": 0.9
+  },
+  "pristine_false_alarm": {
+    "pixel_fpr": 0.0012253961118346157,
+    "image_false_alarm_rate_by_predicted_area": {
+      "0.0": 0.5827814569536424,
+      "0.0001": 0.5099337748344371,
+      "0.001": 0.2185430463576159,
+      "0.01": 0.033112582781456956
+    },
+    "predicted_area_ratio_mean": 0.00152421198129125,
+    "predicted_area_ratio_median": 0.00011064999932684411,
+    "predicted_area_ratio_p95": 0.005755643491442072
+  },
+  "speed": {
+    "total_model_seconds": 2681.4443530139506,
+    "mean_model_seconds_per_image": 3.0785813467439156,
+    "mean_total_seconds_per_image": 3.6161218813180036,
+    "total_tiles": 6420
+  }
+}

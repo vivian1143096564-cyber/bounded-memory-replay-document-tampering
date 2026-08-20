@@ -1,0 +1,76 @@
+{
+  "protocol": "DTD checkpoint evaluation on split:internal_test, official 512px tiling",
+  "counts": {
+    "evaluated": 871,
+    "failed": 0,
+    "tampered": 720,
+    "pristine": 151
+  },
+  "tampered_localization": {
+    "pixel_micro": {
+      "precision": 0.10319247933542727,
+      "recall": 0.04912922823070577,
+      "f1": 0.06656657084495288,
+      "iou": 0.03442920239257678
+    },
+    "image_macro": {
+      "precision": {
+        "mean": 0.10720201501562655,
+        "median": 0.0,
+        "std": 0.27171278597233484,
+        "bootstrap_95_ci": [
+          0.08739376215041353,
+          0.12718091559605682
+        ]
+      },
+      "recall": {
+        "mean": 0.10480283783389821,
+        "median": 0.0,
+        "std": 0.24944307285721368,
+        "bootstrap_95_ci": [
+          0.08671990950186562,
+          0.12321670151239822
+        ]
+      },
+      "f1": {
+        "mean": 0.07214745775744195,
+        "median": 0.0,
+        "std": 0.19322189288981345,
+        "bootstrap_95_ci": [
+          0.058157479811207405,
+          0.08641411016105477
+        ]
+      },
+      "iou": {
+        "mean": 0.052870557178539716,
+        "median": 0.0,
+        "std": 0.15583151577747117,
+        "bootstrap_95_ci": [
+          0.04156252041698328,
+          0.06443728760115854
+        ]
+      }
+    },
+    "complete_miss_rate": 0.2986111111111111,
+    "recall_below_0.1_rate": 0.8236111111111111,
+    "recall_below_0.5_rate": 0.9013888888888889
+  },
+  "pristine_false_alarm": {
+    "pixel_fpr": 0.0013047677078520561,
+    "image_false_alarm_rate_by_predicted_area": {
+      "0.0": 0.6158940397350994,
+      "0.0001": 0.4966887417218543,
+      "0.001": 0.24503311258278146,
+      "0.01": 0.026490066225165563
+    },
+    "predicted_area_ratio_mean": 0.0015802910832863678,
+    "predicted_area_ratio_median": 8.772840968746227e-05,
+    "predicted_area_ratio_p95": 0.005877347112224574
+  },
+  "speed": {
+    "total_model_seconds": 2597.9586378200124,
+    "mean_model_seconds_per_image": 2.982730927462701,
+    "mean_total_seconds_per_image": 3.4595839430757795,
+    "total_tiles": 6420
+  }
+}
