@@ -1,0 +1,21 @@
+{
+  "dataset": "<USER_SUPPLIED_DATASET>",
+  "checkpoint": "<USER_SUPPLIED_CHECKPOINT>",
+  "samples": 2000,
+  "macro": {
+    "precision": 0.44920349819990135,
+    "recall": 0.5574461621268684,
+    "f1": 0.4488276069464976,
+    "iou": 0.35422798257797006
+  },
+  "micro": {
+    "precision": 0.405856878813415,
+    "recall": 0.5653869441020686,
+    "f1": 0.47252023650726094,
+    "iou": 0.3093463152839387
+  },
+  "model_seconds_per_image": 0.4868105775639998,
+  "wall_seconds_per_image": 0.5973493459635,
+  "total_wall_seconds": 1194.698691927,
+  "device": "<DEVICE_RECORDED_IN_ORIGINAL_RUN>"
+}
