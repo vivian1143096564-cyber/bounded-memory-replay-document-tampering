@@ -1,0 +1,43 @@
+{
+  "dataset_images_from_train_txt": 5803,
+  "groups": 3966,
+  "multi_image_groups": 1273,
+  "largest_group": 38,
+  "cross_group_violations": 0,
+  "partition_counts": {
+    "train": 4061,
+    "development": 871,
+    "internal_test": 871
+  },
+  "partition_category_counts": {
+    "train": {
+      "cpmv": 1667,
+      "splice": 344,
+      "inpaint": 439,
+      "cover": 577,
+      "pristine": 704,
+      "edit": 133,
+      "insert": 197
+    },
+    "development": {
+      "edit": 29,
+      "cpmv": 357,
+      "splice": 74,
+      "cover": 124,
+      "pristine": 151,
+      "inpaint": 94,
+      "insert": 42
+    },
+    "internal_test": {
+      "cpmv": 357,
+      "splice": 74,
+      "inpaint": 94,
+      "cover": 124,
+      "pristine": 151,
+      "insert": 42,
+      "edit": 29
+    }
+  },
+  "official_test_read": false,
+  "naming_warning": "This split is perceptual-group-disjoint, not verified document-source-disjoint."
+}

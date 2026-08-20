@@ -1,0 +1,9 @@
+{
+  "strict_train_images_considered": 1600,
+  "candidate_crops": 5836,
+  "kept": 800,
+  "min_kept_score": 0.22734159231185913,
+  "mean_kept_score": 0.36535416830331086,
+  "pristine_kept": 372,
+  "tampered_background_kept": 428
+}
