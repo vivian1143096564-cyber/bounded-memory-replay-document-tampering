@@ -1,0 +1,4 @@
+partition,pages,pristine,cover,cpmv,edit,inpaint,insert,splice
+train,4061,704,577,1667,133,439,197,344
+development,871,151,124,357,29,94,42,74
+internal_test,871,151,124,357,29,94,42,74

@@ -1,0 +1,21 @@
+{
+  "hash": "64-bit difference hash (dHash)",
+  "edge_rule": "Hamming distance <= 4",
+  "group_rule": "connected components; every component assigned wholly to one partition",
+  "allocation": "70/15/15 train/development/internal test",
+  "seed": 20260811,
+  "pages": 5803,
+  "groups": 3966,
+  "multi_image_groups": 1273,
+  "largest_group": 38,
+  "cross_partition_group_violations": 0,
+  "official_test_read": false,
+  "internal_test_tampered_pages": 720,
+  "internal_test_pristine_pages": 151,
+  "internal_gt_area_ratio_median": 0.005656886190239293,
+  "internal_gt_area_ratio_q1": 0.002329413284571721,
+  "internal_gt_area_ratio_q3": 0.01254046498428579,
+  "internal_gt_area_ratio_min": 8.184058557398756e-05,
+  "internal_gt_area_ratio_max": 0.3018563357546408,
+  "naming_warning": "This split is perceptual-group-disjoint, not verified document-source-disjoint."
+}
