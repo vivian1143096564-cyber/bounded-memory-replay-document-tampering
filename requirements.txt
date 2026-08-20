@@ -1,0 +1,8 @@
+numpy
+Pillow
+opencv-python
+lmdb
+tqdm
+scipy
+pandas
+# Install PyTorch/XPU and official DTD dependencies for the target hardware separately.
